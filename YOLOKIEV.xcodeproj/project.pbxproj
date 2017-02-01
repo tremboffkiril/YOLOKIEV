@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB50E13B1D8B99A60057DC09 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E13A1D8B99A50057DC09 /* NewsCell.swift */; };
+		FB50E13D1D8B9A960057DC09 /* NewsLoan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E13C1D8B9A960057DC09 /* NewsLoan.swift */; };
+		FB50E16A1D93AFE00057DC09 /* PorlfolioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E1691D93AFE00057DC09 /* PorlfolioCell.swift */; };
+		FB50E16E1D93CB900057DC09 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E16D1D93CB900057DC09 /* PhotoCell.swift */; };
+		FBC37B591D4379E4009B9E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37B581D4379E4009B9E72 /* AppDelegate.swift */; };
+		FBC37B5E1D4379E4009B9E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B5C1D4379E4009B9E72 /* Main.storyboard */; };
+		FBC37B611D4379E4009B9E72 /* YOLO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */; };
+		FBC37B631D4379E4009B9E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B621D4379E4009B9E72 /* Assets.xcassets */; };
+		FBC37B661D4379E4009B9E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B641D4379E4009B9E72 /* LaunchScreen.storyboard */; };
+		FBC37BBC1D462C4C009B9E72 /* AboutPhotographer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BBB1D462C4C009B9E72 /* AboutPhotographer.swift */; };
+		FBC37BBE1D463531009B9E72 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BBD1D463531009B9E72 /* MainController.swift */; };
+		FBC37BC01D463545009B9E72 /* Sertificats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BBF1D463545009B9E72 /* Sertificats.swift */; };
+		FBC37BC21D463558009B9E72 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BC11D463558009B9E72 /* Portfolio.swift */; };
+		FBC37BC41D46356E009B9E72 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BC31D46356E009B9E72 /* News.swift */; };
+		FBC37BC61D46357E009B9E72 /* Working.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BC51D46357E009B9E72 /* Working.swift */; };
+		FBC37BC81D463592009B9E72 /* Partners.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BC71D463592009B9E72 /* Partners.swift */; };
+		FBC37BCA1D463607009B9E72 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BC91D463607009B9E72 /* Contacts.swift */; };
+		FBD3B3721DEF9E9F003705CB /* PortfolioContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B3711DEF9E9F003705CB /* PortfolioContent.swift */; };
+		FBFD438B1D969B7B0053264E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E13E1D8BAAD80057DC09 /* ImageLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB50E13A1D8B99A50057DC09 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		FB50E13C1D8B9A960057DC09 /* NewsLoan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsLoan.swift; sourceTree = "<group>"; };
+		FB50E13E1D8BAAD80057DC09 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FB50E1691D93AFE00057DC09 /* PorlfolioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorlfolioCell.swift; sourceTree = "<group>"; };
+		FB50E16D1D93CB900057DC09 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		FBC37B551D4379E4009B9E72 /* YOLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC37B581D4379E4009B9E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC37B5D1D4379E4009B9E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YOLO.xcdatamodel; sourceTree = "<group>"; };
+		FBC37B621D4379E4009B9E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC37B651D4379E4009B9E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC37B671D4379E4009B9E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC37BBB1D462C4C009B9E72 /* AboutPhotographer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPhotographer.swift; sourceTree = "<group>"; };
+		FBC37BBD1D463531009B9E72 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FBC37BBF1D463545009B9E72 /* Sertificats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sertificats.swift; sourceTree = "<group>"; };
+		FBC37BC11D463558009B9E72 /* Portfolio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		FBC37BC31D46356E009B9E72 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FBC37BC51D46357E009B9E72 /* Working.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Working.swift; sourceTree = "<group>"; };
+		FBC37BC71D463592009B9E72 /* Partners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partners.swift; sourceTree = "<group>"; };
+		FBC37BC91D463607009B9E72 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		FBD3B3711DEF9E9F003705CB /* PortfolioContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC37B521D4379E4009B9E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6E6F5C1D995B5A003A9E02 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FBC37B4C1D4379E4009B9E72 = {
+			isa = PBXGroup;
+			children = (
+				FBC37B571D4379E4009B9E72 /* YOLO */,
+				FBC37B561D4379E4009B9E72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC37B561D4379E4009B9E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37B551D4379E4009B9E72 /* YOLO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC37B571D4379E4009B9E72 /* YOLO */ = {
+			isa = PBXGroup;
+			children = (
+				FB6E6F5C1D995B5A003A9E02 /* images */,
+				FB50E13E1D8BAAD80057DC09 /* ImageLoader.swift */,
+				FBC37B581D4379E4009B9E72 /* AppDelegate.swift */,
+				FBC37BBD1D463531009B9E72 /* MainController.swift */,
+				FBC37BD11D46365F009B9E72 /* Photographer */,
+				FBC37BD01D463648009B9E72 /* Portfolio */,
+				FBC37BCF1D463642009B9E72 /* News */,
+				FBC37BCE1D46363A009B9E72 /* Working */,
+				FBC37BCD1D463632009B9E72 /* Contacts */,
+				FBC37BCC1D463627009B9E72 /* Sertificats */,
+				FBC37BCB1D46361B009B9E72 /* Partners */,
+				FBC37B5C1D4379E4009B9E72 /* Main.storyboard */,
+				FBC37B621D4379E4009B9E72 /* Assets.xcassets */,
+				FBC37B641D4379E4009B9E72 /* LaunchScreen.storyboard */,
+				FBC37B671D4379E4009B9E72 /* Info.plist */,
+				FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */,
+			);
+			path = YOLO;
+			sourceTree = "<group>";
+		};
+		FBC37BCB1D46361B009B9E72 /* Partners */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BC71D463592009B9E72 /* Partners.swift */,
+			);
+			name = Partners;
+			sourceTree = "<group>";
+		};
+		FBC37BCC1D463627009B9E72 /* Sertificats */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BBF1D463545009B9E72 /* Sertificats.swift */,
+			);
+			name = Sertificats;
+			sourceTree = "<group>";
+		};
+		FBC37BCD1D463632009B9E72 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BC91D463607009B9E72 /* Contacts.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		FBC37BCE1D46363A009B9E72 /* Working */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BC51D46357E009B9E72 /* Working.swift */,
+			);
+			name = Working;
+			sourceTree = "<group>";
+		};
+		FBC37BCF1D463642009B9E72 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BC31D46356E009B9E72 /* News.swift */,
+				FB50E13A1D8B99A50057DC09 /* NewsCell.swift */,
+				FB50E13C1D8B9A960057DC09 /* NewsLoan.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		FBC37BD01D463648009B9E72 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BC11D463558009B9E72 /* Portfolio.swift */,
+				FB50E1691D93AFE00057DC09 /* PorlfolioCell.swift */,
+				FBD3B3711DEF9E9F003705CB /* PortfolioContent.swift */,
+			);
+			name = Portfolio;
+			sourceTree = "<group>";
+		};
+		FBC37BD11D46365F009B9E72 /* Photographer */ = {
+			isa = PBXGroup;
+			children = (
+				FBC37BBB1D462C4C009B9E72 /* AboutPhotographer.swift */,
+				FB50E16D1D93CB900057DC09 /* PhotoCell.swift */,
+			);
+			name = Photographer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC37B541D4379E4009B9E72 /* YOLO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLO" */;
+			buildPhases = (
+				FBC37B511D4379E4009B9E72 /* Sources */,
+				FBC37B521D4379E4009B9E72 /* Frameworks */,
+				FBC37B531D4379E4009B9E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOLO;
+			productName = YOLO;
+			productReference = FBC37B551D4379E4009B9E72 /* YOLO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC37B4D1D4379E4009B9E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Kiril;
+				TargetAttributes = {
+					FBC37B541D4379E4009B9E72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NFJMP549AX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC37B4C1D4379E4009B9E72;
+			productRefGroup = FBC37B561D4379E4009B9E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC37B541D4379E4009B9E72 /* YOLO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC37B531D4379E4009B9E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC37B661D4379E4009B9E72 /* LaunchScreen.storyboard in Resources */,
+				FBC37B631D4379E4009B9E72 /* Assets.xcassets in Resources */,
+				FBC37B5E1D4379E4009B9E72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC37B511D4379E4009B9E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50E13D1D8B9A960057DC09 /* NewsLoan.swift in Sources */,
+				FB50E16E1D93CB900057DC09 /* PhotoCell.swift in Sources */,
+				FBFD438B1D969B7B0053264E /* ImageLoader.swift in Sources */,
+				FBC37BC21D463558009B9E72 /* Portfolio.swift in Sources */,
+				FBC37BC61D46357E009B9E72 /* Working.swift in Sources */,
+				FBC37BC01D463545009B9E72 /* Sertificats.swift in Sources */,
+				FBC37BBE1D463531009B9E72 /* MainController.swift in Sources */,
+				FBC37BCA1D463607009B9E72 /* Contacts.swift in Sources */,
+				FBC37BBC1D462C4C009B9E72 /* AboutPhotographer.swift in Sources */,
+				FB50E16A1D93AFE00057DC09 /* PorlfolioCell.swift in Sources */,
+				FBD3B3721DEF9E9F003705CB /* PortfolioContent.swift in Sources */,
+				FBC37BC41D46356E009B9E72 /* News.swift in Sources */,
+				FBC37B591D4379E4009B9E72 /* AppDelegate.swift in Sources */,
+				FBC37BC81D463592009B9E72 /* Partners.swift in Sources */,
+				FBC37B611D4379E4009B9E72 /* YOLO.xcdatamodeld in Sources */,
+				FB50E13B1D8B99A60057DC09 /* NewsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBC37B5C1D4379E4009B9E72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC37B5D1D4379E4009B9E72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC37B641D4379E4009B9E72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC37B651D4379E4009B9E72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC37B681D4379E4009B9E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dmytro Kozachok (NFJMP549AX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ads = "";
+			};
+			name = Debug;
+		};
+		FBC37B691D4379E4009B9E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dmytro Kozachok (NFJMP549AX)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				ads = "";
+			};
+			name = Release;
+		};
+		FBC37B6B1D4379E4009B9E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NFJMP549AX;
+				INFOPLIST_FILE = YOLO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kozachek.YOLO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FBC37B6C1D4379E4009B9E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NFJMP549AX;
+				INFOPLIST_FILE = YOLO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kozachek.YOLO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC37B681D4379E4009B9E72 /* Debug */,
+				FBC37B691D4379E4009B9E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC37B6B1D4379E4009B9E72 /* Debug */,
+				FBC37B6C1D4379E4009B9E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */,
+			);
+			currentVersion = FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */;
+			path = YOLO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBC37B4D1D4379E4009B9E72 /* Project object */;
+}
