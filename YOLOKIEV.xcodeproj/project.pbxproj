@@ -13,7 +13,7 @@
 		FB50E16E1D93CB900057DC09 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50E16D1D93CB900057DC09 /* PhotoCell.swift */; };
 		FBC37B591D4379E4009B9E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37B581D4379E4009B9E72 /* AppDelegate.swift */; };
 		FBC37B5E1D4379E4009B9E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B5C1D4379E4009B9E72 /* Main.storyboard */; };
-		FBC37B611D4379E4009B9E72 /* YOLO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */; };
+		FBC37B611D4379E4009B9E72 /* YOLOKIEV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC37B5F1D4379E4009B9E72 /* YOLOKIEV.xcdatamodeld */; };
 		FBC37B631D4379E4009B9E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B621D4379E4009B9E72 /* Assets.xcassets */; };
 		FBC37B661D4379E4009B9E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC37B641D4379E4009B9E72 /* LaunchScreen.storyboard */; };
 		FBC37BBC1D462C4C009B9E72 /* AboutPhotographer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC37BBB1D462C4C009B9E72 /* AboutPhotographer.swift */; };
@@ -29,15 +29,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E6AB09C1E0014950039A039 /* YOLOKIEV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YOLOKIEV.entitlements; sourceTree = SOURCE_ROOT; };
 		FB50E13A1D8B99A50057DC09 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		FB50E13C1D8B9A960057DC09 /* NewsLoan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsLoan.swift; sourceTree = "<group>"; };
 		FB50E13E1D8BAAD80057DC09 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ImageLoader.swift; sourceTree = "<group>"; };
 		FB50E1691D93AFE00057DC09 /* PorlfolioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorlfolioCell.swift; sourceTree = "<group>"; };
 		FB50E16D1D93CB900057DC09 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
-		FBC37B551D4379E4009B9E72 /* YOLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC37B551D4379E4009B9E72 /* YOLOKIEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLOKIEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC37B581D4379E4009B9E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC37B5D1D4379E4009B9E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YOLO.xcdatamodel; sourceTree = "<group>"; };
+		FBC37B601D4379E4009B9E72 /* YOLOKIEV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YOLOKIEV.xcdatamodel; sourceTree = "<group>"; };
 		FBC37B621D4379E4009B9E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC37B651D4379E4009B9E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC37B671D4379E4009B9E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +64,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E6AB0991E0014950039A039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB6E6F5C1D995B5A003A9E02 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,22 +81,26 @@
 		FBC37B4C1D4379E4009B9E72 = {
 			isa = PBXGroup;
 			children = (
-				FBC37B571D4379E4009B9E72 /* YOLO */,
+				FBC37B571D4379E4009B9E72 /* YOLOKIEV */,
 				FBC37B561D4379E4009B9E72 /* Products */,
+				9E6AB0991E0014950039A039 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
 		};
 		FBC37B561D4379E4009B9E72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBC37B551D4379E4009B9E72 /* YOLO.app */,
+				FBC37B551D4379E4009B9E72 /* YOLOKIEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBC37B571D4379E4009B9E72 /* YOLO */ = {
+		FBC37B571D4379E4009B9E72 /* YOLOKIEV */ = {
 			isa = PBXGroup;
 			children = (
+				9E6AB09C1E0014950039A039 /* YOLOKIEV.entitlements */,
 				FB6E6F5C1D995B5A003A9E02 /* images */,
 				FB50E13E1D8BAAD80057DC09 /* ImageLoader.swift */,
 				FBC37B581D4379E4009B9E72 /* AppDelegate.swift */,
@@ -104,9 +116,9 @@
 				FBC37B621D4379E4009B9E72 /* Assets.xcassets */,
 				FBC37B641D4379E4009B9E72 /* LaunchScreen.storyboard */,
 				FBC37B671D4379E4009B9E72 /* Info.plist */,
-				FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */,
+				FBC37B5F1D4379E4009B9E72 /* YOLOKIEV.xcdatamodeld */,
 			);
-			path = YOLO;
+			path = YOLOKIEV;
 			sourceTree = "<group>";
 		};
 		FBC37BCB1D46361B009B9E72 /* Partners */ = {
@@ -173,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBC37B541D4379E4009B9E72 /* YOLO */ = {
+		FBC37B541D4379E4009B9E72 /* YOLOKIEV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLO" */;
+			buildConfigurationList = FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLOKIEV" */;
 			buildPhases = (
 				FBC37B511D4379E4009B9E72 /* Sources */,
 				FBC37B521D4379E4009B9E72 /* Frameworks */,
@@ -185,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = YOLO;
+			name = YOLOKIEV;
 			productName = YOLO;
-			productReference = FBC37B551D4379E4009B9E72 /* YOLO.app */;
+			productReference = FBC37B551D4379E4009B9E72 /* YOLOKIEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,18 +209,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Kiril;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.kozachek.YOLOKIEV;
 				TargetAttributes = {
 					FBC37B541D4379E4009B9E72 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = NFJMP549AX;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLO" */;
+			buildConfigurationList = FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLOKIEV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBC37B541D4379E4009B9E72 /* YOLO */,
+				FBC37B541D4379E4009B9E72 /* YOLOKIEV */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +275,7 @@
 				FBC37BC41D46356E009B9E72 /* News.swift in Sources */,
 				FBC37B591D4379E4009B9E72 /* AppDelegate.swift in Sources */,
 				FBC37BC81D463592009B9E72 /* Partners.swift in Sources */,
-				FBC37B611D4379E4009B9E72 /* YOLO.xcdatamodeld in Sources */,
+				FBC37B611D4379E4009B9E72 /* YOLOKIEV.xcdatamodeld in Sources */,
 				FB50E13B1D8B99A60057DC09 /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,10 +322,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dmytro Kozachok (NFJMP549AX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NFJMP549AX;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -355,10 +373,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dmytro Kozachok (NFJMP549AX)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NFJMP549AX;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -384,12 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dmytro Kozachok (92NAX3L8KV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NFJMP549AX;
-				INFOPLIST_FILE = YOLO/Info.plist;
+				INFOPLIST_FILE = YOLOKIEV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kozachek.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmkozachek.YOLOKIEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -402,12 +422,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dmytro Kozachok (NFJMP549AX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NFJMP549AX;
-				INFOPLIST_FILE = YOLO/Info.plist;
+				INFOPLIST_FILE = YOLOKIEV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kozachek.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmkozachek.YOLOKIEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -418,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLO" */ = {
+		FBC37B501D4379E4009B9E72 /* Build configuration list for PBXProject "YOLOKIEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBC37B681D4379E4009B9E72 /* Debug */,
@@ -427,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLO" */ = {
+		FBC37B6A1D4379E4009B9E72 /* Build configuration list for PBXNativeTarget "YOLOKIEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBC37B6B1D4379E4009B9E72 /* Debug */,
@@ -439,13 +460,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FBC37B5F1D4379E4009B9E72 /* YOLO.xcdatamodeld */ = {
+		FBC37B5F1D4379E4009B9E72 /* YOLOKIEV.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */,
+				FBC37B601D4379E4009B9E72 /* YOLOKIEV.xcdatamodel */,
 			);
-			currentVersion = FBC37B601D4379E4009B9E72 /* YOLO.xcdatamodel */;
-			path = YOLO.xcdatamodeld;
+			currentVersion = FBC37B601D4379E4009B9E72 /* YOLOKIEV.xcdatamodel */;
+			path = YOLOKIEV.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
